@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(find /c/AIProjects2026/liftingdairycourse -type f -name .env* -o -name clerk*)",
+      "Bash(ls -la /c/AIProjects2026/liftingdairycourse/*.*)",
+      "Bash(grep -E \"\\\\.\\(ts|js|mjs|json\\)$\")",
+      "mcp__neon__list_projects",
+      "mcp__neon__get_database_tables",
+      "mcp__neon__describe_table_schema",
+      "mcp__neon__run_sql_transaction",
+      "Bash(grep -E \"^d.*docs$\")",
+      "Bash(npx shadcn:*)",
+      "Bash(git checkout:*)",
+      "Bash(git merge:*)",
+      "Bash(git stash:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m ':*)",
+      "Bash(grep -E '^zod$|^react-hook-form$')",
+      "Bash(git commit:*)",
+      "Bash(git branch:*)",
+      "Bash(ls C:/AIProjects2026/liftingdairycourse/.env*)",
+      "Bash(xargs grep *)",
+      "Bash(npm run *)",
+      "Bash(npx tsc *)",
+      "Bash(cmd *)",
+      "Bash(npx eslint *)",
+      "Bash(where node *)",
+      "Bash(powershell *)",
+      "Bash(cmd.exe *)",
+      "Bash(where git *)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "neon"
+  ],
+  "outputStyle": "Learning"
+}
