@@ -1,0 +1,22 @@
+{
+  "eval_id": 3,
+  "eval_name": "workout-history-chart",
+  "prompt": "Show me my workout history chart.",
+  "assertions": [
+    {
+      "text": "A PNG chart file was created",
+      "passed": null,
+      "evidence": ""
+    },
+    {
+      "text": "The output path was reported to the user",
+      "passed": null,
+      "evidence": ""
+    },
+    {
+      "text": "No hardcoded database credentials appear in the script (uses .env.local)",
+      "passed": null,
+      "evidence": ""
+    }
+  ]
+}

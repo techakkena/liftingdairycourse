@@ -1,0 +1,22 @@
+{
+  "eval_id": 2,
+  "eval_name": "monthly-progress-plot",
+  "prompt": "How many workouts did I do each month this year? Plot my progress.",
+  "assertions": [
+    {
+      "text": "A PNG chart file was created",
+      "passed": null,
+      "evidence": ""
+    },
+    {
+      "text": "The response reports per-month workout counts or references data retrieved from the DB",
+      "passed": null,
+      "evidence": ""
+    },
+    {
+      "text": "The bundled plot_workouts.py script was used (not a from-scratch script)",
+      "passed": null,
+      "evidence": ""
+    }
+  ]
+}

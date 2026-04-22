@@ -1,0 +1,23 @@
+{
+  "skill_name": "workout-chart",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Generate a bar chart of my workouts for the past year and save it as an image.",
+      "expected_output": "A workout_chart.png file in the project root showing monthly workout counts as a bar chart, plus a summary of total workouts and busiest month.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "How many workouts did I do each month this year? Plot my progress.",
+      "expected_output": "workout_chart.png created, with each bar labelled with count, x-axis showing month labels, report of total and peak month.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Show me my workout history chart.",
+      "expected_output": "The skill runs the Python script, saves workout_chart.png, and tells the user where it was saved along with data highlights.",
+      "files": []
+    }
+  ]
+}

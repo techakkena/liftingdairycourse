@@ -1,0 +1,27 @@
+{
+  "eval_id": 1,
+  "eval_name": "generate-chart-explicit-request",
+  "prompt": "Generate a bar chart of my workouts for the past year and save it as an image.",
+  "assertions": [
+    {
+      "text": "A PNG file was created (workout_chart.png exists in project root)",
+      "passed": null,
+      "evidence": ""
+    },
+    {
+      "text": "The script queried the workouts table from the correct DATABASE_URL in .env.local",
+      "passed": null,
+      "evidence": ""
+    },
+    {
+      "text": "A data summary was printed (total workouts, busiest month, or similar)",
+      "passed": null,
+      "evidence": ""
+    },
+    {
+      "text": "All 12 months are represented on the x-axis (no missing months)",
+      "passed": null,
+      "evidence": ""
+    }
+  ]
+}

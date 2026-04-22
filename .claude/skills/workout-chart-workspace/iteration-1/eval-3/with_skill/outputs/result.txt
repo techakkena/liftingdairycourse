@@ -1,0 +1,4 @@
+Chart saved to: C:\AIProjects2026\liftingdairycourse\workout_chart_eval3.png
+Total workouts: 12
+Busiest month: Apr 2026 (11 workouts)
+Months with no workouts: May 2025, Jun 2025, Jul 2025, Aug 2025, Sep 2025, Oct 2025, Nov 2025, Dec 2025, Jan 2026, Feb 2026

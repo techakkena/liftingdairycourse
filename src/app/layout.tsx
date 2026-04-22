@@ -58,12 +58,14 @@ export default function RootLayout({
                 </Show>
                 <ThemeToggle />
                 <Show when="signed-out">
-                  <SignInButton mode="modal">
-                    <Button variant="outline" size="sm">Sign In</Button>
-                  </SignInButton>
-                  <SignUpButton mode="modal">
-                    <Button size="sm">Sign Up</Button>
-                  </SignUpButton>
+                  <>
+                    <SignInButton mode="modal">
+                      <button className={buttonVariants({ variant: "outline", size: "sm" })}>Sign In</button>
+                    </SignInButton>
+                    <SignUpButton mode="modal">
+                      <button className={buttonVariants({ size: "sm" })}>Sign Up</button>
+                    </SignUpButton>
+                  </>
                 </Show>
                 <Show when="signed-in">
                   <UserButton />

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" style="background:#ffffff;font-family:Arial,Helvetica,sans-serif;">
+  <!-- Title -->
+  <text x="600" y="42" text-anchor="middle" font-size="18" font-weight="bold" fill="#222222">Workouts per Month (Past 12 Months)</text>
+
+  <!-- Grid lines and Y-axis ticks -->
+  <line x1="70" y1="490.0" x2="1160" y2="490.0" stroke="#e0e0e0" stroke-dasharray="4,4"/><text x="62.0" y="494.0" text-anchor="end" font-size="11" fill="#666">0</text><line x1="70" y1="406.0" x2="1160" y2="406.0" stroke="#e0e0e0" stroke-dasharray="4,4"/><text x="62.0" y="410.0" text-anchor="end" font-size="11" fill="#666">3</text><line x1="70" y1="322.0" x2="1160" y2="322.0" stroke="#e0e0e0" stroke-dasharray="4,4"/><text x="62.0" y="326.0" text-anchor="end" font-size="11" fill="#666">6</text><line x1="70" y1="238.0" x2="1160" y2="238.0" stroke="#e0e0e0" stroke-dasharray="4,4"/><text x="62.0" y="242.0" text-anchor="end" font-size="11" fill="#666">9</text><line x1="70" y1="154.0" x2="1160" y2="154.0" stroke="#e0e0e0" stroke-dasharray="4,4"/><text x="62.0" y="158.0" text-anchor="end" font-size="11" fill="#666">11</text><line x1="70" y1="70.0" x2="1160" y2="70.0" stroke="#e0e0e0" stroke-dasharray="4,4"/><text x="62.0" y="74.0" text-anchor="end" font-size="11" fill="#666">14</text>
+
+  <!-- Axes -->
+  <line x1="70" y1="70" x2="70" y2="490" stroke="#999999" stroke-width="1.5"/>
+  <line x1="70" y1="490" x2="1160" y2="490" stroke="#999999" stroke-width="1.5"/>
+
+  <!-- Y-axis label -->
+  <text x="18" y="280.0" text-anchor="middle" font-size="13" fill="#444444" transform="rotate(-90 18 280.0)">Number of Workouts</text>
+
+  <!-- X-axis label -->
+  <text x="600" y="592" text-anchor="middle" font-size="13" fill="#444444">Month</text>
+
+  <!-- Bars and labels -->
+  <rect x="74.4" y="490.0" width="82" height="0.0" fill="#4f86c6" rx="3"/><text x="115.4" y="508.0" text-anchor="end" font-size="11" fill="#555" transform="rotate(45 115.4 508.0)">May 2025</text><rect x="165.2" y="490.0" width="82" height="0.0" fill="#4f86c6" rx="3"/><text x="206.2" y="508.0" text-anchor="end" font-size="11" fill="#555" transform="rotate(45 206.2 508.0)">Jun 2025</text><rect x="256.1" y="490.0" width="82" height="0.0" fill="#4f86c6" rx="3"/><text x="297.1" y="508.0" text-anchor="end" font-size="11" fill="#555" transform="rotate(45 297.1 508.0)">Jul 2025</text><rect x="346.9" y="490.0" width="82" height="0.0" fill="#4f86c6" rx="3"/><text x="387.9" y="508.0" text-anchor="end" font-size="11" fill="#555" transform="rotate(45 387.9 508.0)">Aug 2025</text><rect x="437.8" y="490.0" width="82" height="0.0" fill="#4f86c6" rx="3"/><text x="478.8" y="508.0" text-anchor="end" font-size="11" fill="#555" transform="rotate(45 478.8 508.0)">Sep 2025</text><rect x="528.6" y="490.0" width="82" height="0.0" fill="#4f86c6" rx="3"/><text x="569.6" y="508.0" text-anchor="end" font-size="11" fill="#555" transform="rotate(45 569.6 508.0)">Oct 2025</text><rect x="619.4" y="490.0" width="82" height="0.0" fill="#4f86c6" rx="3"/><text x="660.4" y="508.0" text-anchor="end" font-size="11" fill="#555" transform="rotate(45 660.4 508.0)">Nov 2025</text><rect x="710.2" y="490.0" width="82" height="0.0" fill="#4f86c6" rx="3"/><text x="751.2" y="508.0" text-anchor="end" font-size="11" fill="#555" transform="rotate(45 751.2 508.0)">Dec 2025</text><rect x="801.1" y="490.0" width="82" height="0.0" fill="#4f86c6" rx="3"/><text x="842.1" y="508.0" text-anchor="end" font-size="11" fill="#555" transform="rotate(45 842.1 508.0)">Jan 2026</text><rect x="891.9" y="490.0" width="82" height="0.0" fill="#4f86c6" rx="3"/><text x="932.9" y="508.0" text-anchor="end" font-size="11" fill="#555" transform="rotate(45 932.9 508.0)">Feb 2026</text><rect x="982.7" y="460.4" width="82" height="29.6" fill="#4f86c6" rx="3"/><text x="1023.7" y="454.4" text-anchor="middle" font-size="12" fill="#333">1</text><text x="1023.7" y="508.0" text-anchor="end" font-size="11" fill="#555" transform="rotate(45 1023.7 508.0)">Mar 2026</text><rect x="1073.6" y="164.6" width="82" height="325.4" fill="#4f86c6" rx="3"/><text x="1114.6" y="158.6" text-anchor="middle" font-size="12" fill="#333">11</text><text x="1114.6" y="508.0" text-anchor="end" font-size="11" fill="#555" transform="rotate(45 1114.6 508.0)">Apr 2026</text>
+</svg>
