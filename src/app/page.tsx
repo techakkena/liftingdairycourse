@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { SignInButton, SignUpButton, Show } from "@clerk/nextjs";
-import { Button } from "@/components/ui/button";
 import { buttonVariants } from "@/components/ui/button-variants";
 import { Dumbbell } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -30,9 +29,9 @@ export default function Home() {
           </SignInButton>
         </Show>
         <Show when="signed-in">
-          <Button asChild size="lg" className="min-w-36">
-            <Link href="/dashboard">Go to Dashboard</Link>
-          </Button>
+          <Link href="/dashboard" className={cn(buttonVariants({ size: "lg" }), "min-w-36")}>
+            Go to Dashboard
+          </Link>
         </Show>
       </div>
     </main>
