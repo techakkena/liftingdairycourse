@@ -44,7 +44,10 @@
       "Bash(wait)",
       "Bash(taskkill /PID 15312 /F)",
       "Bash(tasklist /FI \"IMAGENAME eq node.exe\")",
-      "mcp__neon__get_connection_string"
+      "mcp__neon__get_connection_string",
+      "Bash(git fetch *)",
+      "Bash(git push *)",
+      "Bash(node *)"
     ]
   },
   "enableAllProjectMcpServers": true,
