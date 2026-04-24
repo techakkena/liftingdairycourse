@@ -56,3 +56,11 @@
   ],
   "outputStyle": "Learning"
 }
+
+{
+  "claude-code": {
+    "env": {
+      "ANTHROPIC_API_KEY": "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"
+    }
+  }
+}
